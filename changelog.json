@@ -1,0 +1,10 @@
+[
+  {
+    "version": "1.0.0",
+    "versionCode": 6,
+    "apkFileName": "app-v1.0.0.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.0.0.apk",
+    "releaseNotes": "style: alinhar nomes dos temas ao site e ajustar cores\n\n- Renomeia os temas (Escuro/Claro/Esmeralda/Por do Sol -> Dark Navy/\n  Classic Light/Emerald Night/Sunset Gold) pra bater com os nomes usados\n  nos swatches da pagina de download.\n- Tema claro: primary de #465D91 pra #000.\n- Dashboard: MiniBarChart de despesas previstas passa a usar\n  theme.colors.primary em vez de secondary.",
+    "publishedAt": "2026-08-01T03:33:44.369Z"
+  }
+]
