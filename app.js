@@ -3,9 +3,22 @@
    antes do aceite. Fica fora do IIFE porque `gtag` precisa ser global (é a
    interface padrão do gtag.js), e num arquivo 'self' (não inline) pra CSP
    script-src continuar sem 'unsafe-inline'. */
+// Não há build step nessa página (é HTML/CSS/JS estático de propósito), então
+// não existe variável de ambiente pra distinguir dev de produção — o jeito
+// que sobra é checar o hostname em runtime. Cobre servidor local
+// (localhost/127.0.0.1) e abrir o arquivo direto (file://, hostname vazio).
+const DEV_HOSTNAMES = ["localhost", "127.0.0.1", ""];
+
 function loadAnalytics() {
   if (window.__analyticsLoaded) return;
   window.__analyticsLoaded = true;
+
+  if (DEV_HOSTNAMES.includes(location.hostname)) {
+    console.info(
+      `[NorteFin] Google tag não carregado — ambiente de desenvolvimento (hostname: "${location.hostname || "file://"}").`
+    );
+    return;
+  }
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = function gtag() {
