@@ -4,8 +4,8 @@
     "versionCode": 9,
     "apkFileName": "app-v1.3.0.apk",
     "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.3.0.apk",
-    "releaseNotes": "chore: bump version to v1.3.0 (versionCode 9)",
-    "publishedAt": "2026-08-06T18:58:12.773Z"
+    "releaseNotes": "Tela de Movimentações refeita: filtro de competência (mês/ano) que restringe a lista, gráfico de receitas x despesas com o mês selecionado destacado, e reposicionamento do botão de Filtros.",
+    "publishedAt": "2026-08-06T19:03:52.363Z"
   },
   {
     "version": "1.2.0",
