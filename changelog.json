@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.2.0",
+    "versionCode": 8,
+    "apkFileName": "app-v1.2.0.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.2.0.apk",
+    "releaseNotes": "Correção na contabilização de dívidas com terceiros (empréstimos e despesas compartilhadas não inflam mais Receita/Despesa do mês), lançamento de terceiro com 3 cenários claros, Acertar contas em qualquer direção, editar/excluir lançamentos de terceiro e correção de contraste no botão de exclusão no tema escuro.",
+    "publishedAt": "2026-08-06T06:03:11.650Z"
+  },
+  {
     "version": "1.1.0",
     "versionCode": 7,
     "apkFileName": "app-v1.1.0.apk",
