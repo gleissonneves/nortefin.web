@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.4.1",
+    "versionCode": 11,
+    "apkFileName": "app-v1.4.1.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.4.1.apk",
+    "releaseNotes": "chore: bump version para v1.4.1\n\nConfigurações ganha uma seção \"Sobre\" com a versão instalada e um botão\npra verificar atualização sob demanda, complementando o banner\nautomático que só checa ao abrir o app.",
+    "publishedAt": "2026-08-13T23:26:48.460Z"
+  },
+  {
     "version": "1.4.0",
     "versionCode": 10,
     "apkFileName": "app-v1.4.0.apk",
