@@ -1,8 +1,8 @@
 {
-  "version": "1.3.0",
-  "versionCode": 13,
-  "apkFileName": "app-v1.3.0.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.3.0.apk",
-  "releaseNotes": "chore: removido estrutura de sugestão do readme",
-  "publishedAt": "2026-08-07T21:28:09.609Z"
+  "version": "1.4.0",
+  "versionCode": 10,
+  "apkFileName": "app-v1.4.0.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.4.0.apk",
+  "releaseNotes": "chore: bump version para v1.4.0\n\nCorreção na contabilização de dívidas com terceiros (empréstimos e\ndespesas compartilhadas não inflam mais Receita/Despesa do mês),\nlançamento de terceiro com 3 cenários claros, Acertar contas em\nqualquer direção, editar/excluir lançamentos de terceiro e correção\nde contraste no botão de exclusão no tema escuro.",
+  "publishedAt": "2026-08-13T22:47:25.218Z"
 }
