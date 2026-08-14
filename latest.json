@@ -1,8 +1,8 @@
 {
-  "version": "1.4.1",
-  "versionCode": 11,
-  "apkFileName": "app-v1.4.1.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.4.1.apk",
-  "releaseNotes": "chore: bump version para v1.4.1\n\nConfigurações ganha uma seção \"Sobre\" com a versão instalada e um botão\npra verificar atualização sob demanda, complementando o banner\nautomático que só checa ao abrir o app.",
-  "publishedAt": "2026-08-13T23:26:48.460Z"
+  "version": "1.5.0",
+  "versionCode": 12,
+  "apkFileName": "app-v1.5.0.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.5.0.apk",
+  "releaseNotes": "chore: bump version para v1.5.0\n\nTela dedicada de Cartões (listagem + criação/edição) e detalhe do\ncartão redesenhado com header colorido, competência por mês calendário\ne gráfico de tendência.",
+  "publishedAt": "2026-08-14T04:39:04.103Z"
 }
