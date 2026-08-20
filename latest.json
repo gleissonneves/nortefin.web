@@ -3,6 +3,6 @@
   "versionCode": 14,
   "apkFileName": "app-v1.5.2.apk",
   "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.5.2.apk",
-  "releaseNotes": "chore: bump version para v1.5.2",
+  "releaseNotes": "chore: bump version para v1.5.2\n\nÍcone do app corrigido: o desenho estava cortado de forma inconsistente\nentre aparelhos Android por falta de margem de segurança. Agora aparece\ncompleto e centralizado no launcher.",
   "publishedAt": "2026-08-20T04:53:04.916Z"
 }

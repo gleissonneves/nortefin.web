@@ -4,7 +4,7 @@
     "versionCode": 14,
     "apkFileName": "app-v1.5.2.apk",
     "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.5.2.apk",
-    "releaseNotes": "chore: bump version para v1.5.2",
+    "releaseNotes": "chore: bump version para v1.5.2\n\nÍcone do app corrigido: o desenho estava cortado de forma inconsistente\nentre aparelhos Android por falta de margem de segurança. Agora aparece\ncompleto e centralizado no launcher.",
     "publishedAt": "2026-08-20T04:53:04.916Z"
   },
   {
@@ -12,7 +12,7 @@
     "versionCode": 13,
     "apkFileName": "app-v1.5.1.apk",
     "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.5.1.apk",
-    "releaseNotes": "chore: bump version para v1.5.1",
+    "releaseNotes": "chore: bump version para v1.5.1\n\nCartões arquivados agora ficam numa seção retrátil na tela de Cartões,\ncom botão para desarquivar direto no detalhe do cartão.",
     "publishedAt": "2026-08-20T04:06:23.107Z"
   },
   {
