@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.5.1",
+    "versionCode": 13,
+    "apkFileName": "app-v1.5.1.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.5.1.apk",
+    "releaseNotes": "chore: bump version para v1.5.1",
+    "publishedAt": "2026-08-20T04:06:23.107Z"
+  },
+  {
     "version": "1.5.0",
     "versionCode": 12,
     "apkFileName": "app-v1.5.0.apk",
