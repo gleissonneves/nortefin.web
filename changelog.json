@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.6.0",
+    "versionCode": 15,
+    "apkFileName": "app-v1.6.0.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.6.0.apk",
+    "releaseNotes": "fix: corrigir seleção de build-tools no release-local.sh\n\nGlob build-tools/*/apksigner batia em mais de uma versão instalada\n(34.0.0 e 36.0.0) e virava um comando ambíguo, quebrando a verificação\nde assinatura no meio do release v1.6.0. Agora pega a versão mais\nrecente via ls -v.",
+    "publishedAt": "2026-08-23T23:58:52.392Z"
+  },
+  {
     "version": "1.5.2",
     "versionCode": 14,
     "apkFileName": "app-v1.5.2.apk",
