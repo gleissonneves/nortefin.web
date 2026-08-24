@@ -1,8 +1,8 @@
 {
-  "version": "1.6.0",
-  "versionCode": 15,
-  "apkFileName": "app-v1.6.0.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.6.0.apk",
-  "releaseNotes": "chore: bump version para v1.6.0\n\nAgora dá pra cancelar uma despesa (avulsa ou parcelada) direto na\ntela de edição. Compras parceladas com parcelas já pagas permitem\nescolher entre gerar reembolso ou liberar o limite do cartão. Toda\ndespesa cancelada fica recuperável na nova tela Lixeira, em\nConfigurações.",
-  "publishedAt": "2026-08-23T23:58:52.392Z"
+  "version": "1.7.0",
+  "versionCode": 16,
+  "apkFileName": "app-v1.7.0.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.0.apk",
+  "releaseNotes": "Removido o card \"Despesas previstas\" do Dashboard (tinha um bug: despesa recorrente já paga no mês sumia do total). Novo botão de olho no Dashboard pra esconder Saldo total, Receitas e Despesas do mês, como no Nubank — a preferência fica salva entre sessões.",
+  "publishedAt": "2026-08-24T01:18:24.768Z"
 }
