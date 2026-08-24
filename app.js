@@ -216,26 +216,72 @@ function loadAnalytics() {
       if (errorEl) errorEl.style.display = "block";
     });
 
-  /* ---- histórico de versões (changelog.json) ---- */
+  /* ---- histórico de versões (changelog.json), paginado ---- */
+  const CHANGELOG_PAGE_SIZE = 5;
+  let changelogData = [];
+  let changelogPage = 1;
+
+  function renderChangelogPage() {
+    const list = document.getElementById("changelog-list");
+    const pagination = document.getElementById("changelog-pagination");
+    if (!list) return;
+
+    const totalPages = Math.max(1, Math.ceil(changelogData.length / CHANGELOG_PAGE_SIZE));
+    changelogPage = Math.min(Math.max(1, changelogPage), totalPages);
+    const start = (changelogPage - 1) * CHANGELOG_PAGE_SIZE;
+    const pageEntries = changelogData.slice(start, start + CHANGELOG_PAGE_SIZE);
+
+    list.innerHTML = pageEntries
+      .map(
+        (entry, i) => `
+          <div class="qa reveal is-in" style="--d:${i * 60}ms">
+            <div class="qa__q" style="cursor:default;">
+              <span>v${escapeHtml(entry.version)}</span>
+              <span class="download__version" style="font-size:11px;">${new Date(entry.publishedAt).toLocaleDateString("pt-BR")}</span>
+            </div>
+            <div class="qa__a" style="grid-template-rows:1fr;">
+              <div><p style="white-space:pre-wrap;">${escapeHtml(entry.releaseNotes)}</p></div>
+            </div>
+          </div>`
+      )
+      .join("");
+
+    if (!pagination) return;
+    if (totalPages <= 1) {
+      pagination.innerHTML = "";
+      return;
+    }
+
+    const navBtn = (page, label, symbol) => `
+      <button class="pagination__btn pagination__btn--nav" data-page="${page}" aria-label="${label}"${
+        page < 1 || page > totalPages ? " disabled" : ""
+      }>${symbol}</button>`;
+    const pageBtn = page => `
+      <button class="pagination__btn${page === changelogPage ? " is-active" : ""}" data-page="${page}" aria-label="Página ${page}"${
+        page === changelogPage ? ' aria-current="page"' : ""
+      }>${page}</button>`;
+
+    let html = navBtn(changelogPage - 1, "Página anterior", "‹");
+    for (let p = 1; p <= totalPages; p++) html += pageBtn(p);
+    html += navBtn(changelogPage + 1, "Próxima página", "›");
+    pagination.innerHTML = html;
+
+    pagination.querySelectorAll("[data-page]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = Number(btn.dataset.page);
+        if (target < 1 || target > totalPages || target === changelogPage) return;
+        changelogPage = target;
+        renderChangelogPage();
+      });
+    });
+  }
+
   fetch("changelog.json?_=" + Date.now())
     .then(r => r.json())
     .then(changelog => {
-      const list = document.getElementById("changelog-list");
-      if (!list) return;
-      list.innerHTML = changelog
-        .map(
-          (entry, i) => `
-            <div class="qa reveal is-in" style="--d:${i * 60}ms">
-              <div class="qa__q" style="cursor:default;">
-                <span>v${escapeHtml(entry.version)}</span>
-                <span class="download__version" style="font-size:11px;">${new Date(entry.publishedAt).toLocaleDateString("pt-BR")}</span>
-              </div>
-              <div class="qa__a" style="grid-template-rows:1fr;">
-                <div><p style="white-space:pre-wrap;">${escapeHtml(entry.releaseNotes)}</p></div>
-              </div>
-            </div>`
-        )
-        .join("");
+      changelogData = changelog;
+      changelogPage = 1;
+      renderChangelogPage();
     })
     .catch(() => {});
 
