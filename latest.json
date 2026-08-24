@@ -3,6 +3,6 @@
   "versionCode": 16,
   "apkFileName": "app-v1.7.0.apk",
   "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.0.apk",
-  "releaseNotes": "Removido o card \"Despesas previstas\" do Dashboard (tinha um bug: despesa recorrente já paga no mês sumia do total). Novo botão de olho no Dashboard pra esconder Saldo total, Receitas e Despesas do mês, como no Nubank — a preferência fica salva entre sessões.",
+  "releaseNotes": "chore: bump version para v1.7.0\n\nRemovido o card \"Despesas previstas\" do Dashboard (tinha um bug: despesa\nrecorrente já paga no mês sumia do total) e adicionado um botão para\nesconder os valores do Dashboard (Saldo total, Receitas e Despesas do\nmês), com a preferência salva entre sessões.",
   "publishedAt": "2026-08-24T01:18:24.768Z"
 }
