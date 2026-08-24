@@ -1,8 +1,8 @@
 {
-  "version": "1.7.3",
-  "versionCode": 19,
-  "apkFileName": "app-v1.7.3.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.3.apk",
-  "releaseNotes": "chore: bump version para v1.7.3\n\nTela de contas renomeada pra \"Saldos\" (Dashboard, header e seção do Patrimônio, consistente com a ação rápida). Novo card de saldo total no topo da tela Saldos, com texto explicando o que ela mostra.",
-  "publishedAt": "2026-08-24T07:13:28.367Z"
+  "version": "1.7.4",
+  "versionCode": 20,
+  "apkFileName": "app-v1.7.4.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.4.apk",
+  "releaseNotes": "chore: bump version para v1.7.4\n\nNova categoria padrão de despesa: \"Aquisição de patrimônio\", pra compras que constroem patrimônio (imóvel, veículo, bens duráveis), distinta de consumo do dia a dia.",
+  "publishedAt": "2026-08-24T08:40:27.079Z"
 }

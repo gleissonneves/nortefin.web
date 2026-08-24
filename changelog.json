@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.4",
+    "versionCode": 20,
+    "apkFileName": "app-v1.7.4.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.4.apk",
+    "releaseNotes": "chore: bump version para v1.7.4\n\nNova categoria padrão de despesa: \"Aquisição de patrimônio\", pra compras que constroem patrimônio (imóvel, veículo, bens duráveis), distinta de consumo do dia a dia.",
+    "publishedAt": "2026-08-24T08:40:27.079Z"
+  },
+  {
     "version": "1.7.3",
     "versionCode": 19,
     "apkFileName": "app-v1.7.3.apk",
