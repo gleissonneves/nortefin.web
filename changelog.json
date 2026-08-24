@@ -4,7 +4,7 @@
     "versionCode": 17,
     "apkFileName": "app-v1.7.1.apk",
     "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.1.apk",
-    "releaseNotes": "Correção em Patrimônio: os botões \"Nova\"/\"Novo\" (conta/cartão) agora abrem a tela de cadastro correta, em vez do modal antigo que estava desatualizado. No gráfico de Movimentações, agora dá pra clicar num mês pra pular direto pra ele, sem precisar abrir o seletor de competência.",
+    "releaseNotes": "chore: bump version para v1.7.1\n\nCorreção em Patrimônio: os botões \"Nova\"/\"Novo\" (conta/cartão) agora\nabrem a tela de cadastro correta, em vez do modal antigo que estava\ndesatualizado. No gráfico de Movimentações, agora dá pra clicar num\nmês para pular direto para ele, sem precisar abrir o seletor de\ncompetência.",
     "publishedAt": "2026-08-24T03:07:30.428Z"
   },
   {
