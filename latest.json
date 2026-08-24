@@ -1,8 +1,8 @@
 {
-  "version": "1.7.1",
-  "versionCode": 17,
-  "apkFileName": "app-v1.7.1.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.1.apk",
-  "releaseNotes": "chore: bump version para v1.7.1\n\nCorreção em Patrimônio: os botões \"Nova\"/\"Novo\" (conta/cartão) agora\nabrem a tela de cadastro correta, em vez do modal antigo que estava\ndesatualizado. No gráfico de Movimentações, agora dá pra clicar num\nmês para pular direto para ele, sem precisar abrir o seletor de\ncompetência.",
-  "publishedAt": "2026-08-24T03:07:30.428Z"
+  "version": "1.7.2",
+  "versionCode": 18,
+  "apkFileName": "app-v1.7.2.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.2.apk",
+  "releaseNotes": "chore: bump version para v1.7.2\n\nAção rápida do Dashboard renomeada de \"Conta\" para \"Saldos\", pra não confundir com \"Conta a pagar\" (menu de adicionar em Movimentações).",
+  "publishedAt": "2026-08-24T05:34:24.245Z"
 }
