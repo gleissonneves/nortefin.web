@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.5",
+    "versionCode": 21,
+    "apkFileName": "app-v1.7.5.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.5.apk",
+    "releaseNotes": "chore: bump version para v1.7.5\n\nNova opção \"Normalizar saldo\" no detalhe da conta: informe o saldo real (do banco/carteira) e o app cria automaticamente uma receita ou despesa de ajuste pra fechar a diferença, sem mexer no histórico já lançado.",
+    "publishedAt": "2026-08-30T06:56:27.088Z"
+  },
+  {
     "version": "1.7.4",
     "versionCode": 20,
     "apkFileName": "app-v1.7.4.apk",
