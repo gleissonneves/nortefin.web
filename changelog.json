@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.7",
+    "versionCode": 23,
+    "apkFileName": "app-v1.7.7.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.7.apk",
+    "releaseNotes": "chore: bump version para v1.7.7\n\nAjuste de saldo (Normalizar saldo) agora fica fora dos relatórios de fluxo (Receita x Despesa, gasto por categoria, ticket médio, custo fixo x variável, Dashboard, Movimentações) — continua contando pro saldo da conta, só não é mais tratado como receita/despesa real. Também agora dá pra cancelar uma receita, igual já era possível com despesa (recuperável na Lixeira).",
+    "publishedAt": "2026-08-30T09:51:57.457Z"
+  },
+  {
     "version": "1.7.6",
     "versionCode": 22,
     "apkFileName": "app-v1.7.6.apk",
