@@ -1,8 +1,8 @@
 {
-  "version": "1.7.5",
-  "versionCode": 21,
-  "apkFileName": "app-v1.7.5.apk",
-  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.5.apk",
-  "releaseNotes": "chore: bump version para v1.7.5\n\nNova opção \"Normalizar saldo\" no detalhe da conta: informe o saldo real (do banco/carteira) e o app cria automaticamente uma receita ou despesa de ajuste pra fechar a diferença, sem mexer no histórico já lançado.",
-  "publishedAt": "2026-08-30T06:56:27.088Z"
+  "version": "1.7.6",
+  "versionCode": 22,
+  "apkFileName": "app-v1.7.6.apk",
+  "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.6.apk",
+  "releaseNotes": "chore: bump version para v1.7.6\n\nCampo \"Status\" de Nova/Editar Despesa agora fica visível direto no formulário (fora de \"Mais opções\") e o padrão passa a ser \"Pendente\" em vez de \"Paga\"/\"Recebida\", tanto em Despesa quanto em Receita.",
+  "publishedAt": "2026-08-30T08:10:10.095Z"
 }
