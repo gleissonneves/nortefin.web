@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.8",
+    "versionCode": 24,
+    "apkFileName": "app-v1.7.8.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.8.apk",
+    "releaseNotes": "chore: bump version para v1.7.8\n\nNo detalhe do cartão, agora dá pra ver o valor exato da fatura da competência selecionada (antes só dava pra estimar pela barra do gráfico), junto com limite e vencimento. Em Nova/Editar Despesa, o campo \"Data\" foi renomeado pra \"Data de pagamento\", mais claro sobre o que ele representa.",
+    "publishedAt": "2026-09-01T16:32:57.838Z"
+  },
+  {
     "version": "1.7.7",
     "versionCode": 23,
     "apkFileName": "app-v1.7.7.apk",
