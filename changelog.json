@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.10",
+    "versionCode": 26,
+    "apkFileName": "app-v1.7.10.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.10.apk",
+    "releaseNotes": "chore: bump version para v1.7.10\n\nO extrato de Saldos > Conta agora navega por competência (mesmo padrão do Cartão), com resumo de Receitas/Despesas do mês e um botão para compartilhar o extrato.",
+    "publishedAt": "2026-09-02T08:17:46.954Z"
+  },
+  {
     "version": "1.7.9",
     "versionCode": 25,
     "apkFileName": "app-v1.7.9.apk",
