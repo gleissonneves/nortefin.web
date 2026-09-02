@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.9",
+    "versionCode": 25,
+    "apkFileName": "app-v1.7.9.apk",
+    "apkUrl": "https://gleissonneves.github.io/nortefin.web/app-v1.7.9.apk",
+    "releaseNotes": "chore: bump version para v1.7.9\n\nNo detalhe do cartão, agora dá pra exportar o extrato da competência selecionada (data, descrição, valor e total da fatura) direto pelo compartilhamento do sistema — WhatsApp, e-mail, notas etc.",
+    "publishedAt": "2026-09-02T06:32:10.574Z"
+  },
+  {
     "version": "1.7.8",
     "versionCode": 24,
     "apkFileName": "app-v1.7.8.apk",
